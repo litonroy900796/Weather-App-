@@ -8,7 +8,7 @@ let icons = document.querySelector(".icon");
 let seach_button = document.querySelector(".seach-button");
 let apikey = "b2bcf4410653ef8951aff9e62c964eb5";
 
-const temperture = (city = "Thakurgaon") => {
+const temperture = (city = "Dhaka") => {
   fetch(
     `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apikey}`
   )
